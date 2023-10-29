@@ -24,7 +24,7 @@ namespace Tyuiu.KolchakovDR.Sprint3.Task4.V6.Lib
                     res = res + x / (Math.Cos(x) - Math.Sin(x));
                 }
             }
-            return Math.Round(res,3);
+            return Math.Round(res,3); 
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Tyuiu.KolchakovDR.Sprint3.Task4.V6
                 "На отрезке, где x принимает значения от -5 до 5, вычислить значение функции y=x/(cos(x)-sin(x)). При х = 0 прервать цикл.Полученные значения суммировать.");
             thg.printHeader();
 
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
 
             int startValue = -5;
             int stopValue = 5;
